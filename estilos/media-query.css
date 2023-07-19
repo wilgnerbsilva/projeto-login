@@ -39,6 +39,7 @@ Grandes telas: acima de 1200px
 
     section#login {
         width: 950px;
+        text-align: center;
     }
 
     section#login > div#imagem {
@@ -48,8 +49,8 @@ Grandes telas: acima de 1200px
     }
 
     section#login > div#formulario {
-         float: right;
-         width: 50%;
+        float: right;
+        width: 50%;
     }
 
     div#formulario > h1 {
@@ -58,6 +59,22 @@ Grandes telas: acima de 1200px
     
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    form > input {
+        margin-left: 25%;
+    }
+
+    form > input[type=submit] {
+        text-align: center;
+        width: 50%;
+        margin-top: 30px;
+        
+    }
+
+    form > a.botao {
+        width: 50%;
+        margin-left: 25%;
     }
 }
 
